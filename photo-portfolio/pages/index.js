@@ -20,6 +20,13 @@ export default function Home() {
           Get started by editing{' '}
           <code className={styles.code}>pages/index.js</code>
         </p>
+        <Image
+          src="https://lh3.googleusercontent.com/pw/AM-JKLUtaGGlPe7dc15Fd7R00ipYrFTKYMgi2nr-ZNVnosUybAe_QCVQFO3iqK2jpFxMESOQyIJHP2g5G7Nk8Z43hMUz1DoQNw7_AP76F1Jr3CJcHHLeGdbyml3o1BTuFuO8xIm6pT-JBwk_P2IwYAHJVs9rsw=w861-h1290-no?authuser=0" // Route of the image file
+          decoding='async'
+          height={490} // Desired size with correct aspect ratio
+          width={327} // Desired size with correct aspect ratio
+          alt="Your Name"
+        />
 
         <div className={styles.grid}>
           <a href="https://nextjs.org/docs" className={styles.card}>

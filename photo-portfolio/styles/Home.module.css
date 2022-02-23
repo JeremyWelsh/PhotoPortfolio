@@ -1,14 +1,38 @@
 .container {
-  padding: 0 2rem;
+  padding: 3rem 4rem;
+}
+
+.sideNav{
+  height: auto;
+  width: 11rem;
+  position: fixed; 
+  overflow-x: hidden;
+  padding: 1rem;
+}
+
+.sideNav h1 {
+  font-size: medium;
+  color: #000;
+  display: block;
+  margin: 0;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.sideNav a {
+  font-size: medium;
+  color: #000;
+  display: block;
+  margin-bottom: 0.3rem;
 }
 
 .main {
   min-height: 100vh;
-  padding: 4rem 0;
+  padding: 0rem 11rem;
   flex: 1;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
 }
 

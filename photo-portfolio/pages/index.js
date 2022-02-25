@@ -123,10 +123,10 @@ export default function Home() {
               quality={5}
             />
             <Image
-              src="/IMG_1439.jpg"
+              src="/IMG_1444.jpg"
               alt="Bosozoku"
-              width={6000}
-              height={4000}
+              width={5713}
+              height={3809}
               quality={5}
             />
             <Image

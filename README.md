@@ -5,14 +5,27 @@ This project has taken heavy inspiration from Jason Kummerfeldt, Joe Greer, Laur
 
 
 
-## Issues with current Solutions
-#### Instagram
-Aspect ratios play a significant role in a how a photo is composed. On Instagram the maximum aspect ratio for posts are 1.91:1 for horizontal and 4:5 for vertical, and stories are 9:16. 
+## Current Solutions
+### Instagram
+
+#### Pros
+Free hosting
+
+Large existing user base
+
+Push notifications and posts
 
 
+#### Cons
+Aspect ratios play a significant role in a how a photo is composed. On Instagram the maximum aspect ratio for posts are 1.91:1 for horizontal and 4:5 for vertical, and stories are 9:16 (https://help.instagram.com/1631821640426723). 
 
-(When you share a photo that has a width between 320 and 1,080 pixels, we keep that photo at its original resolution as long as the photo's aspect ratio is between 1.91:1 and 4:5 (a height between 566 and 1,350 pixels with a width of 1,080 pixels). If the aspect ratio of your photo isn't supported, it will be cropped to fit a supported ratio.)
-https://help.instagram.com/1631821640426723
+Grid view of all photos on an account is limited to 1:1 aspect ratio for each photo and does not include Instagram Stories. The only way to re-organize a grid view is by deleting an reposting photos, however this would become irritating to anyone following the page as they may see large amounts of reposts in their feeds.
+
+Galleries of photos not being able to be viewed all at once if you were to post them in all in one post. also being hidden from the grid view.
+
+Social media aspect - putting a value on photos based on likes
+
+Does not exclusively require an account to view, but gives a worse user experience for those without an account or app.
 
 ### Photography websites used for inspiration
 [Jason Kummerfeldt](http://www.jasonkummerfeldt.com/)</br>
